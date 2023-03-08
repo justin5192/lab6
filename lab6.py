@@ -1,4 +1,4 @@
-# My name is Justin Williamson and my lab 6 partner is Nicholas DeSanctis!
+# My name is Justin Williamson and my lab 6 partner is Cole Jank!
 
 def encode(password):
     converted_string = ''
