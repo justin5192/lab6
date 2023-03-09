@@ -10,6 +10,18 @@ def encode(password):
 
     return converted_string
 
+
+def decode(password):
+    decoded_pw = ''
+    for i in password:
+        if int(i) >= 3:
+	    decoded_pw += str(int(i) - 3)
+	else:
+	    decoded_pw += str(int(i) + 7)
+
+    return decoded_pw
+
+
 def menu():
     print('Menu\n--------')
     print('1. Encode')
