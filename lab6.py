@@ -1,4 +1,5 @@
 # My name is Justin Williamson and my lab 6 partner is Cole Jank!
+# This function encodes and decodes passwords!
 
 def encode(password):
     converted_string = ''
